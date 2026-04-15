@@ -52,7 +52,7 @@ const Projects = () => {
         <section
             className='h-fit bg-black'
         >
-            <div className='section-content max-w-[1600px]! h-fit'
+            <div className='section-content max-w-[1400px]! h-fit'
                 ref={containerRef}
             >
                 <SectionHeading subtitle={"Creating experiences with these building blocks."} heading={"Projects"} />
@@ -61,7 +61,7 @@ const Projects = () => {
                     <div className='project-wrapper
                     '>
                         <ProjectCard photo={'/projects/HemaHome.png'} title={'Hema Home Stay'} websiteLink={"https://hema-home-stay.vercel.app/"} />
-                        <ProjectCard isbig={true} photo={"/projects/BNova.png"} title={'Blue Nova Agency'} websiteLink={"https://blue-nova-agency.vercel.app/"} />
+                        <ProjectCard isbig={true} photo={"https://res.cloudinary.com/dxbwk0z1y/image/upload/v1776252177/BNOVA_website_on_tablet_display_fhkilh.png"} title={'Blue Nova Agency'} websiteLink={"https://blue-nova-agency.vercel.app/"} />
                     </div>
 
                     <div className='project-wrapper

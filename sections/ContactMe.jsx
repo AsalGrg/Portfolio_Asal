@@ -16,7 +16,7 @@ const ContactMe = () => {
                 ' mask-no-repeat mask-contain mask-center ' +
                 'bg-black mask-exclude'}
             style={{
-                maskImage:'url("/wing.svg"), linear-gradient(#fff, #fff)',
+                maskImage:'url("https://res.cloudinary.com/dxbwk0z1y/image/upload/v1776252240/Wing_n65qug.svg"), linear-gradient(#fff, #fff)',
                 maskPosition: 'center',
                 maskComposite: 'exclude',
                 maskRepeat: 'no-repeat',

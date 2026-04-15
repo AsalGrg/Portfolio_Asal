@@ -23,7 +23,7 @@ const Footer = () => {
         gsap.timeline({
             scrollTrigger:{
                 trigger: containerRef.current,
-                start: 'top top',
+                start: 'top 20%',
                 end: 'bottom 80%',
                 markers:true,
                 toggleActions: "play reverse play reverse",
