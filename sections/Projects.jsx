@@ -35,7 +35,6 @@ const Projects = () => {
                         end: 'bottom 60%',        // 👈 controls how long the pin lasts
                         pin: true,           // 👈 pins the wrapper itself
                         pinSpacing: true,    // 👈 pushes content below down, prevents overlap
-                        markers: true,
                     }
                 })
                     .from(small, { y: 700, ease: 'power1.out' })

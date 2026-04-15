@@ -1,8 +1,6 @@
 'use client'
-import Image from 'next/image'
 import React, {useRef} from 'react'
 import HeroBG from '../components/HeroBG';
-import GradientHeading from "@/components/GradientHeading";
 import {useGSAP} from "@gsap/react";
 import gsap from 'gsap'
 import {SplitText}  from "gsap/SplitText";

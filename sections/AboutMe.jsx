@@ -26,7 +26,6 @@ const AboutMe = () => {
               start:'top 50%',
               scrub: 0.5,
               end: 'bottom bottom',
-              markers:true,
             },
             filter: 'blur(0px)',
             ease: 'power1.out',
