@@ -1,26 +1,41 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  ---primary-color: #FF7F11;
+  ---white: #FFFFFC;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme{
+
+  --font-bebas: 'Bebas Neue', sans-serif;
+    --color-black: var(--foreground);
+  --color-primary: var(---primary-color);
+  --color-white: var(---white);
+  --font-bais: 'Baisteach', sans-serif;
+}
+.content {
+  @apply max-w-[1300px] mx-auto p-[6vmin] lg:px-0 font-bais
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.section-content{
+  @apply max-w-[1300px] mx-auto pt-32 px-[6vmin] lg:px-0 font-bais
+}
+.heading{
+  @apply text-7xl/[80%] tracking-tight text-center font-bais
+}
+.heading-big{
+  @apply lg:text-9xl/[80%] text-8xl/[80%]  tracking-tight text-center font-bais
+}
+.gap-small{
+  @apply gap-[1vh]
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.para{
+  @apply font-bebas text-lg/[120%] tracking-wider font-normal
+}
+.project-wrapper{
+   @apply h-fit lg:h-[min(900px,100vh)] flex lg:flex-row flex-col justify-between items-start  space-y-10
 }
