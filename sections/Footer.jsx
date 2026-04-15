@@ -25,7 +25,6 @@ const Footer = () => {
                 trigger: containerRef.current,
                 start: 'top 20%',
                 end: 'bottom 80%',
-                markers:true,
                 toggleActions: "play reverse play reverse",
             }
         })
