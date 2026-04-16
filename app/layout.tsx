@@ -49,6 +49,8 @@ export default function RootLayout({
           href="https://fonts.cdnfonts.com/css/bebas-neue"
           rel="stylesheet"
         />
+
+        <meta name="google-site-verification" content="R2nf9lA3u01jwUZinEGSw6vtyhFzuXqHm0kW57FxQmc" />
       </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
